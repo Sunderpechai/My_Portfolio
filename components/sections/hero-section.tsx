@@ -65,11 +65,11 @@ export function HeroSection() {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               variants={item}
               className="flex flex-wrap gap-4 justify-center"
             >
-              <ButtonLink href="/#projects" icon={true}>
+              <ButtonLink href="/#projects" variant="outline" icon={true}>
                 View My Work
               </ButtonLink>
               <ButtonLink href="/#contact" variant="outline">
@@ -90,14 +90,16 @@ export function HeroSection() {
                       rel="noopener noreferrer"
                       aria-label={social.platform}
                       className={cn(
-                        "h-10 w-10 flex items-center justify-center rounded-full",
-                        "text-muted-foreground hover:text-primary transition-colors",
-                        "border border-border hover:border-primary"
+                        "h-14 w-14 flex items-center justify-center rounded-xl",
+                        "text-white hover:text-primary transition-all duration-300",
+                        "border-2 border-white/40 hover:border-primary",
+                        "bg-white/5 hover:bg-primary/10 backdrop-blur-md",
+                        "shadow-lg hover:shadow-xl hover:shadow-primary/20"
                       )}
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
+                      whileHover={{ scale: 1.1, y: -5 }}
+                      whileTap={{ scale: 0.95 }}
                     >
-                      {IconComponent && <IconComponent className="h-5 w-5" />}
+                      {IconComponent && <IconComponent className="h-7 w-7 stroke-[2.5]" />}
                     </motion.a>
                   );
                 })}

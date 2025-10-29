@@ -69,7 +69,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            {personalInfo.name.split(' ')[0]}<span className="text-primary">{personalInfo.name.split(' ')[1] || ''}</span>
+            {personalInfo.name.split(' ')[0]} <span className="text-primary">{personalInfo.name.split(' ')[1] || ''}</span>
           </motion.span>
         </Link>
         

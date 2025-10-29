@@ -1,44 +1,22 @@
 [
   {
     "id": "project-1",
-    "title": "E-commerce Platform",
-    "description": "A full-stack e-commerce solution with headless CMS integration.",
-    "longDescription": "Built with Next.js, TypeScript, and Tailwind CSS, this e-commerce platform features a headless CMS, cart functionality, payment processing with Stripe, and user authentication.",
-    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Headless CMS"],
-    "imageUrl": "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveUrl": "https://ecommerce-demo.com",
-    "githubUrl": "https://github.com/killcod3",
+    "title": "Web Phishing Prediction Using Machine Learning",
+    "description": "A phishing detection model using Gradient Boosting Classifier with 97.4% accuracy.",
+    "longDescription": "Developed a machine learning model to detect phishing websites using Gradient Boosting Classifier, achieving 97.4% accuracy. The project focused on minimizing false positives and improving performance with larger datasets. Implemented data preprocessing, feature engineering, and model evaluation techniques. Proposed future enhancements include real-time detection capabilities and hybrid detection systems combining multiple ML algorithms.",
+    "tags": ["Python", "Machine Learning", "Gradient Boosting", "Data Analysis", "Google Colab", "VS Code"],
+    "imageUrl": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "githubUrl": "https://github.com/Sunderpechai",
     "featured": true
   },
   {
     "id": "project-2",
-    "title": "Dashboard Analytics",
-    "description": "Interactive analytics dashboard with real-time data visualization.",
-    "longDescription": "A comprehensive analytics dashboard built with React, D3.js, and Firebase. Features real-time data updates, interactive charts, and customizable widgets.",
-    "tags": ["React", "D3.js", "Firebase", "Recharts", "Real-time"],
-    "imageUrl": "https://images.pexels.com/photos/5473302/pexels-photo-5473302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveUrl": "https://dashboard-demo.com",
-    "githubUrl": "https://github.com/killcod3",
+    "title": "Real-Time Human Pose Detector",
+    "description": "Real-time pose detection system using NVIDIA Jetson Nano and OpenPose deep learning model.",
+    "longDescription": "Built a real-time human pose detection system using NVIDIA Jetson Nano and deep learning models (OpenPose). The system enables accurate pose estimation and visualization for applications in healthcare monitoring, sports analysis, and fitness tracking. Implemented using TensorFlow and OpenCV for efficient real-time processing. The project demonstrates proficiency in computer vision, deep learning deployment on edge devices, and real-time video processing.",
+    "tags": ["Python", "TensorFlow", "OpenCV", "Deep Learning", "Computer Vision", "NVIDIA Jetson Nano", "OpenPose"],
+    "imageUrl": "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "githubUrl": "https://github.com/Sunderpechai",
     "featured": true
-  },
-  {
-    "id": "project-3",
-    "title": "Task Management App",
-    "description": "Collaborative task management application with real-time updates.",
-    "longDescription": "A task management application built with React, Redux, and Socket.io for real-time collaboration. Features include drag-and-drop task organization, comments, attachments, and team collaboration.",
-    "tags": ["React", "Redux", "Socket.io", "Node.js", "MongoDB"],
-    "imageUrl": "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "githubUrl": "https://github.com/killcod3",
-    "featured": false
-  },
-  {
-    "id": "project-4",
-    "title": "Personal Finance Tracker",
-    "description": "Mobile-first application for tracking personal expenses and budgeting.",
-    "longDescription": "A personal finance application built with React Native and Firebase. Features include expense tracking, budget planning, financial goals, and visualization of spending patterns.",
-    "tags": ["React Native", "Firebase", "Mobile", "Charts"],
-    "imageUrl": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveUrl": "https://finance-app.com",
-    "featured": false
   }
 ]

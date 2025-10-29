@@ -1,47 +1,77 @@
 [
   {
-    "name": "React",
-    "level": 95,
-    "category": "frontend"
-  },
-  {
-    "name": "TypeScript",
+    "name": "Core Java",
     "level": 90,
-    "category": "frontend"
+    "category": "backend"
   },
   {
-    "name": "Next.js",
+    "name": "SQL",
     "level": 85,
-    "category": "frontend"
+    "category": "backend"
   },
   {
-    "name": "CSS/Tailwind",
-    "level": 90,
-    "category": "frontend"
-  },
-  {
-    "name": "Node.js",
+    "name": "Hibernate",
     "level": 80,
     "category": "backend"
   },
   {
-    "name": "GraphQL",
+    "name": "Spring Boot",
     "level": 75,
     "category": "backend"
   },
   {
-    "name": "AWS",
-    "level": 70,
-    "category": "devops"
+    "name": "HTML",
+    "level": 85,
+    "category": "frontend"
   },
   {
-    "name": "Docker",
-    "level": 65,
-    "category": "devops"
+    "name": "CSS",
+    "level": 85,
+    "category": "frontend"
   },
   {
-    "name": "UI/UX Design",
+    "name": "JavaScript",
+    "level": 80,
+    "category": "frontend"
+  },
+  {
+    "name": "Python",
+    "level": 85,
+    "category": "backend"
+  },
+  {
+    "name": "Machine Learning",
+    "level": 80,
+    "category": "ai"
+  },
+  {
+    "name": "TensorFlow",
     "level": 75,
-    "category": "design"
+    "category": "ai"
+  },
+  {
+    "name": "OpenCV",
+    "level": 75,
+    "category": "ai"
+  },
+  {
+    "name": "Data Structures & Algorithms",
+    "level": 85,
+    "category": "backend"
+  },
+  {
+    "name": "MySQL",
+    "level": 85,
+    "category": "backend"
+  },
+  {
+    "name": "Git & GitHub",
+    "level": 80,
+    "category": "devops"
+  },
+  {
+    "name": "Networking (CCNA)",
+    "level": 75,
+    "category": "devops"
   }
 ]

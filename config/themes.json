@@ -12,16 +12,45 @@
         "card": "hsl(210, 30%, 98%)",
         "border": "hsl(220, 15%, 90%)"
       },
+      "gradientConfig": {
+        "color1": "rgba(59, 130, 246, 0.5)",
+        "color2": "rgba(147, 51, 234, 0.45)",
+        "color3": "rgba(236, 72, 153, 0.45)",
+        "color4": "rgba(34, 211, 238, 0.5)"
+      },
+      "matrixConfig": {
+        "primaryColor": "#0066ff",
+        "secondaryColor": "#0033aa",
+        "fontSize": 14,
+        "speed": 1
+      },
+      "neuralConfig": {
+        "nodeColor": "#3b82f6",
+        "connectionColor": "#3b82f6",
+        "activeColor": "#f59e0b",
+        "nodeCount": 50,
+        "connectionDistance": 200,
+        "pulseSpeed": 0.02
+      },
+      "gridConfig": {
+        "gridSize": 60,
+        "lineColor": "#3b82f6",
+        "activeColor": "#f59e0b",
+        "lineWidth": 1,
+        "dotSize": 3,
+        "hoverRadius": 150,
+        "animationSpeed": 0.02
+      },
       "particleConfig": {
         "enabled": true,
-        "particleCount": 65,
-        "color": "hsl(204, 100%, 40%)",
-        "linkColor": "hsl(204, 100%, 40%, 0.2)",
-        "speed": 0.8,
+        "particleCount": 100,
+        "color": "#60a5fa",
+        "linkColor": "#93c5fd",
+        "speed": 0.5,
         "size": 3,
         "shape": "circle",
         "linked": true,
-        "opacity": 0.7,
+        "opacity": 0.5,
         "interactivity": {
           "repulseDistance": 150,
           "repulseDuration": 0.4
@@ -40,16 +69,45 @@
         "card": "hsl(220, 25%, 15%)",
         "border": "hsl(220, 25%, 20%)"
       },
+      "gradientConfig": {
+        "color1": "rgba(59, 130, 246, 0.35)",
+        "color2": "rgba(147, 51, 234, 0.3)",
+        "color3": "rgba(236, 72, 153, 0.3)",
+        "color4": "rgba(34, 211, 238, 0.35)"
+      },
+      "matrixConfig": {
+        "primaryColor": "#00ff00",
+        "secondaryColor": "#003300",
+        "fontSize": 14,
+        "speed": 1
+      },
+      "neuralConfig": {
+        "nodeColor": "#3b82f6",
+        "connectionColor": "#60a5fa",
+        "activeColor": "#f59e0b",
+        "nodeCount": 50,
+        "connectionDistance": 200,
+        "pulseSpeed": 0.02
+      },
+      "gridConfig": {
+        "gridSize": 60,
+        "lineColor": "#60a5fa",
+        "activeColor": "#f59e0b",
+        "lineWidth": 1,
+        "dotSize": 3,
+        "hoverRadius": 150,
+        "animationSpeed": 0.02
+      },
       "particleConfig": {
         "enabled": true,
-        "particleCount": 65,
-        "color": "hsl(204, 100%, 50%)",
-        "linkColor": "hsl(204, 100%, 50%, 0.2)",
-        "speed": 0.8,
+        "particleCount": 100,
+        "color": "#60a5fa",
+        "linkColor": "#93c5fd",
+        "speed": 0.5,
         "size": 3,
         "shape": "circle",
         "linked": true,
-        "opacity": 0.7,
+        "opacity": 0.6,
         "interactivity": {
           "repulseDistance": 150,
           "repulseDuration": 0.4
@@ -68,12 +126,41 @@
         "card": "hsl(230, 35%, 12%)",
         "border": "hsl(230, 30%, 18%)"
       },
+      "gradientConfig": {
+        "color1": "rgba(34, 211, 238, 0.4)",
+        "color2": "rgba(139, 92, 246, 0.35)",
+        "color3": "rgba(236, 72, 153, 0.35)",
+        "color4": "rgba(59, 130, 246, 0.4)"
+      },
+      "matrixConfig": {
+        "primaryColor": "#00ffff",
+        "secondaryColor": "#004444",
+        "fontSize": 14,
+        "speed": 1
+      },
+      "neuralConfig": {
+        "nodeColor": "#22d3ee",
+        "connectionColor": "#06b6d4",
+        "activeColor": "#a855f7",
+        "nodeCount": 50,
+        "connectionDistance": 200,
+        "pulseSpeed": 0.02
+      },
+      "gridConfig": {
+        "gridSize": 60,
+        "lineColor": "#22d3ee",
+        "activeColor": "#a855f7",
+        "lineWidth": 1,
+        "dotSize": 3,
+        "hoverRadius": 150,
+        "animationSpeed": 0.02
+      },
       "particleConfig": {
         "enabled": true,
-        "particleCount": 65,
-        "color": "hsl(175, 70%, 50%)",
-        "linkColor": "hsl(175, 70%, 50%, 0.15)",
-        "speed": 0.7,
+        "particleCount": 100,
+        "color": "#22d3ee",
+        "linkColor": "#67e8f9",
+        "speed": 0.5,
         "size": 3,
         "shape": "circle",
         "linked": true,

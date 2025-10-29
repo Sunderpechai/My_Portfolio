@@ -1,22 +1,22 @@
 [
   {
     "platform": "GitHub",
-    "url": "https://github.com/killcod3",
+    "url": "https://github.com/Sunderpechai",
     "icon": "Github"
   },
   {
     "platform": "LinkedIn",
-    "url": "https://linkedin.com/in/jawadcodes",
+    "url": "https://linkedin.com/in/Ganesan-k-196100318",
     "icon": "Linkedin"
   },
   {
-    "platform": "Twitter",
-    "url": "https://twitter.com",
-    "icon": "Twitter"
+    "platform": "Email",
+    "url": "mailto:Kganesan2435@gmail.com",
+    "icon": "Mail"
   },
   {
-    "platform": "Dribbble",
-    "url": "https://dribbble.com",
-    "icon": "Dribbble"
+    "platform": "Phone",
+    "url": "tel:+917548890448",
+    "icon": "Phone"
   }
 ]

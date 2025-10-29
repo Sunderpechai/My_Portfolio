@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Navbar } from '@/components/navbar';
-import { ParticlesBackground } from '@/components/particles-background';
+import { ConstellationBackground } from '@/components/constellation-background';
 import { Footer } from '@/components/footer';
 import { getPersonalInfo } from '@/lib/config';
 import { Toaster } from '@/components/ui/toaster';
@@ -26,7 +26,30 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Suppress hydration warnings caused by browser extensions
+              (function() {
+                const originalError = console.error;
+                console.error = function(...args) {
+                  if (
+                    typeof args[0] === 'string' &&
+                    (args[0].includes('Hydration') ||
+                     args[0].includes('hydration') ||
+                     args[0].includes('did not match'))
+                  ) {
+                    return;
+                  }
+                  originalError.apply(console, args);
+                };
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -34,10 +57,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <LoadingAnimation />
-          <ParticlesBackground />
+          <ConstellationBackground />
           <Navbar />
           <ScrollIndicator />
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-screen" suppressHydrationWarning>{children}</main>
           <Footer />
           <Toaster />
         </ThemeProvider>
