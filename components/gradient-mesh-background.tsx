@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { getThemeByName } from "@/lib/config";
+import { getThemeGradientByName } from "@/lib/theme";
+
 
 export function GradientMeshBackground() {
   const [mounted, setMounted] = useState(false);
@@ -21,11 +22,13 @@ export function GradientMeshBackground() {
   useEffect(() => {
     if (mounted && theme) {
       try {
-        const currentTheme = getThemeByName(theme === "system" ? "light" : theme);
-        
-        if (currentTheme && currentTheme.gradientConfig) {
-          setGradientColors(currentTheme.gradientConfig);
-        }
+        const currentGradient = getThemeGradientByName(theme === "system" ? "light" : theme);
+
+if (currentGradient) {
+  setGradientColors(currentGradient);
+}
+
+
       } catch (error) {
         console.error("Error setting up gradient:", error);
       }
