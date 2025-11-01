@@ -14,7 +14,7 @@ export default function NotFound() {
       >
         <FolderX className="h-32 w-32 text-primary mx-auto mb-6" />
       </motion.div>
-      
+
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-4"
         initial={{ opacity: 0, y: 20 }}
@@ -23,7 +23,7 @@ export default function NotFound() {
       >
         404
       </motion.h1>
-      
+
       <motion.h2
         className="text-2xl md:text-3xl font-semibold mb-4"
         initial={{ opacity: 0, y: 20 }}
@@ -32,16 +32,16 @@ export default function NotFound() {
       >
         Page Not Found
       </motion.h2>
-      
+
       <motion.p
         className="text-muted-foreground max-w-md mx-auto mb-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        The page you are looking for doesn't exist or has been moved.
+        The page you are looking for doesn&apos;t exist or has been moved.
       </motion.p>
-      
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
